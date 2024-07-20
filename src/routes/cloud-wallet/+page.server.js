@@ -70,7 +70,7 @@ export const actions = {
         outputs: [
         {
             address: data.get('paymail'),
-            note: 'gurudakshina',
+            note: 'payment',
             amount: Number(data.get('amount'))
         }
         ]
