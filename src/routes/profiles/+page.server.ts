@@ -39,7 +39,7 @@ async function seed() {
   const users = await Promise.all([
     client.sql`
           INSERT INTO names (name, email)
-          VALUES ('Rohan', 'rohan@tcl.com')
+          VALUES ('Padmanabhan', 'padmanabhangc04@gmail.com')
           ON CONFLICT (email) DO NOTHING;
       `,
     client.sql`
