@@ -90,19 +90,7 @@
         </button>
       </div>
     </form>
-    <!-- {#if form?.success}
-      <p class="pt-2 text-green-600 font-semibold">
-        Bounty was unlocked successfully: <a
-          class="text-indigo-500 underline font-semibold"
-          target="_blank"
-          href={`https://whatsonchain.com/tx/${form?.txid}`}>Trasaction Link</a
-        >!
-      </p>
-    {:else if form?.success === false}
-      <p class="pt-2 text-red-600 font-semibold">
-        {form?.txid} 
-      </p>
-    {/if} -->
+    
     {#if form?.unlockSuccess}
       <p class="pt-2 text-green-600 font-semibold">
         Bounty was unlocked successfully:
